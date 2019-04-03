@@ -19,11 +19,6 @@ h1 {
 	font-size: 23pt;
 }
 
-ul {
-	list-style: disc inside;
-	text-indent: 20px;
-}
-
 div.header, div.crystals {
     background-color: #fff2fd;
     text-align: center;
