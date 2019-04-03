@@ -1,0 +1,50 @@
+body {
+	background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/fairy-sparkles-stars-and-blurs-magic-photography-backdrop-j-0306_900x.jpg?v=1535705347")
+}
+div {
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div {
+	border: solid 2px rgb(250, 215, 247);
+    padding: 10px;
+    font-family: "Verdana";
+}
+h1, h3, span {
+	font-weight: bold;
+	text-align: center;
+}
+h1 {
+	font-size: 23pt;
+}
+
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+div.header, div.crystals {
+    background-color: #fff2fd;
+    text-align: center;
+}
+
+div.header, div.instructions, div.crystals {
+	width: 50%;
+}
+
+.matchNumber, .winsLosses {
+	float: left;
+	width: 23%;
+	height: 60px;
+}
+.totalScore {
+	width: 50%;
+	height: 60px;
+}
+.crystals {
+	clear: both;
+}
+.crystalImg {
+	margin: 10px;
+}

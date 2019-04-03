@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Crystal Collector</h1>
+    </div>
+
+    <div class="instructions">
+        <h3>Here's How The Game Works:</h3>
+        <br>
+
+        </h2>
+        <p>You will be given a random number at the start of the game.</p><br>
+        <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to
+            your
+            total score.</p><br>
+        <p>You win the game by matching your total score to the random number you received at the beginning of the
+            game.<br><br>
+            You lose the game the game if your total score exceeds the random number value.</p><br>
+        <p>The value of each crystal is hidden until you click on it.</p><br>
+        </h2>
+
+    </div>
+
+    <div class="matchNumber">
+        <h3>Random Number: <span id="randomNumber"></span></h3>
+    </div>
+
+    <div class="winsLosses">
+        <h3>Wins: <span id="totalWins"></span></h3>
+        <br>
+        <h3>Losses: <span id="totalLosses"></span></h3>
+    </div>
+
+    <div class="crystals">
+        <img src="https://www.thediamondauthority.org/wp-content/uploads/2011/06/Blue-diamond-in-white-background-1080x675.jpg"
+            id="one" alt="blue crystal" class="crystalImg" width=220px height=180px>
+        <img src="https://robbreportedit.files.wordpress.com/2018/11/pinklegacy3.jpg?w=660" id="two" alt="pink crystal"
+            class="crystalImg" width=220px height=180px>
+        <img src="http://www.nationaljeweler.com/images/diamonds-gems/supply/20171207_Gamma-header.jpg" id="three"
+            alt="green crystal" class="crystalImg" width=220px height=180px>
+        <img src="http://www.dianerdiamonds.com/_media/diamonds1/fancy-vivid-yellow-oval-diamond-hpe-7.9fe85.jpg"
+            id="four" alt="yellow crystal" class="crystalImg" width=220px height=180px>
+    </div>
+
+    <div class="totalScore">
+        <h3>Your Total Score Is: <span id="finalScore"></span></h3>
+    </div>
+</body>
+
+</html>
