@@ -1,5 +1,6 @@
 body {
-	background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/fairy-sparkles-stars-and-blurs-magic-photography-backdrop-j-0306_900x.jpg?v=1535705347")
+	background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/fairy-sparkles-stars-and-blurs-magic-photography-backdrop-j-0306_900x.jpg?v=1535705347");
+	font-size: 13.5px;
 }
 div {
 	background-color: white;
@@ -31,11 +32,14 @@ div.header, div.instructions, div.crystals {
 .matchNumber, .winsLosses {
 	float: left;
 	width: 23%;
-	height: 60px;
+	height: 64px;
+	font-size: 16pt;
 }
 .totalScore {
 	width: 50%;
-	height: 60px;
+	height: 40px;
+	font-size: 30pt;
+
 }
 .crystals {
 	clear: both;

@@ -43,7 +43,7 @@ $(document).ready(function () {
         $("#totalLosses").text(losses);
         reset();
     }
-    $("#numOne").on("click", function () {
+    $("#one").on("click", function () {
         totalScore = totalScore + numOne;
         console.log("Updated Total Score: " + totalScore);
         $("#finalScore").text(totalScore);
@@ -56,7 +56,7 @@ $(document).ready(function () {
         }
     })
 
-    $("#numTwo").on("click", function () {
+    $("#two").on("click", function () {
         totalScore = totalScore + numTwo;
         console.log("Updated Total Score: " + totalScore);
         $("#finalScore").text(totalScore);
@@ -69,7 +69,7 @@ $(document).ready(function () {
         }
     })
 
-    $("#numThree").on("click", function () {
+    $("#three").on("click", function () {
         totalScore = totalScore + numThree;
         console.log("Updated Total Score: " + totalScore);
         $("#finalScore").text(totalScore);
@@ -82,7 +82,7 @@ $(document).ready(function () {
         }
     })
 
-    $("#numFour").on("click", function () {
+    $("#four").on("click", function () {
         totalScore = totalScore + numFour;
         console.log("Updated Total Score: " + totalScore);
         $("#finalScore").text(totalScore);
