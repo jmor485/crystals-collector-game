@@ -22,11 +22,13 @@ h1 {
 
 div.header, div.crystals {
     background-color: #fff2fd;
-    text-align: center;
+	text-align: center;
+	margin: 10px 300px 0px;
 }
 
 div.header, div.instructions, div.crystals {
 	width: 50%;
+	margin: 10px 300px 0px;
 }
 
 .matchNumber, .winsLosses {
@@ -34,11 +36,13 @@ div.header, div.instructions, div.crystals {
 	width: 23%;
 	height: 64px;
 	font-size: 16pt;
+	margin: 10px 10px 10px 200px;
 }
 .totalScore {
 	width: 50%;
 	height: 40px;
 	font-size: 30pt;
+	margin: 10px 300px;
 
 }
 .crystals {
